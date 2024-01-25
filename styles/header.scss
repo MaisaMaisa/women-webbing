@@ -1,0 +1,31 @@
+header{
+    position: fixed;
+    bottom: 0;
+
+    background-color: black;
+    color: white;
+
+    margin: 1%;
+    white-space: nowrap;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    z-index: 4567;
+}
+
+header button,
+.home{
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-style: italic;
+    margin: 2%;
+    cursor: pointer;
+    white-space: nowrap;
+    width: auto;
+}
+
+header button:hover{
+    font-style: normal;
+}

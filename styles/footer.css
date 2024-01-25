@@ -1,0 +1,13 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 20%;
+  background-color: lightgrey;
+  color: white;
+  box-shadow: 0px 0px 12px 10px black;
+  -webkit-box-shadow: 0px 0px 12px 10px black;
+  -moz-box-shadow: 0px 0px 12px 10px black;
+}
+/*# sourceMappingURL=footer.css.map */

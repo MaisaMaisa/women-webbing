@@ -1,0 +1,53 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+    margin: 2%;
+    cursor: pointer;
+    white-space: nowrap;
+    width: auto;
+}
+
+a:hover{
+    font-style: normal;
+}
+
+.all-batches{
+    display: inline-block;
+    width: 60%;
+    margin: 3% 0 3% 0;
+}
+
+.individual-batch{
+    margin: 3% 0 3% 0;
+}
+
+.combo-batch{
+    display: flex;
+    margin: 3% 0 3% 0;
+}
+
+.threed{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 5%;
+}

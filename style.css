@@ -1,0 +1,107 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+  margin: 2%;
+  cursor: pointer;
+  white-space: nowrap;
+  width: auto;
+}
+
+a:hover {
+  font-style: normal;
+}
+
+.all-batches {
+  display: inline-block;
+  width: 60%;
+  margin: 3% 0 3% 0;
+}
+
+.individual-batch {
+  margin: 3% 0 3% 0;
+}
+
+.combo-batch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3% 0 3% 0;
+}
+
+.threed {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  margin-bottom: 5%;
+}
+
+header {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  margin: 1%;
+  white-space: nowrap;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 4567;
+}
+
+header button,
+.home {
+  color: white;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  font-style: italic;
+  margin: 2%;
+  cursor: pointer;
+  white-space: nowrap;
+  width: auto;
+}
+
+header button:hover {
+  font-style: normal;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 20%;
+  background-color: lightgrey;
+  color: white;
+  box-shadow: 0px 0px 12px 10px black;
+  -webkit-box-shadow: 0px 0px 12px 10px black;
+  -moz-box-shadow: 0px 0px 12px 10px black;
+}
+/*# sourceMappingURL=style.css.map */
